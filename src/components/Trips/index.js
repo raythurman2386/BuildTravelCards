@@ -18,7 +18,7 @@ const Trips = () => {
         <div className="trips-wrap">
             <h4 className="heading">view latest trips</h4>
             <select name="trips" onChange={e => handleChange(e)}>
-                <option value="all">Filter</option>
+                <option value="all">All Trips</option>
                 <option value="adventure">Adventure</option>
                 <option value="family">Family</option>
                 <option value="weekend break">Weekend Break</option>
